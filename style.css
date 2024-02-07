@@ -1,0 +1,93 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.64);
+    
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    
+}
+#contenedorTodasPreguntas{
+    align-items: center;
+}
+
+.divContenedorPregunta{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 234, 241);
+    border: 1px solid rgb(202, 222, 238); 
+    margin: 5px;
+    border-radius: 5px;
+    width: 900px;
+
+}
+.divPregunta{
+    text-align: center;
+}
+.divOpciones{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.divBotonesFinal{
+    background-color: rgb(187, 211, 231);
+    border: 1px solid rgb(132, 176, 214);
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+    border-radius: 5px;
+    width: 900px;
+
+}
+.divBotonesFinal button{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+button{
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.64);
+    border: 1px solid rgba(0, 0, 0, 0.173);
+    padding: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(240, 238, 171);
+    
+}
+.respuestaSeleccionada{
+    background-color: rgb(240, 238, 171);
+}
+
+.correcta{
+    background-color: rgb(185, 253, 184); 
+    border: 1px solid rgb(122, 181, 121); 
+    
+    
+}
+.botonCorrecta{
+    background-color: rgb(157, 239, 154);
+    
+}
+.incorrecta{
+    /* background-color: rgb(255, 187, 187); */
+    background-color: rgb(245, 171, 171);
+    border: 1px solid rgb(184, 101, 101);
+}
+.noSeleccionada{
+    background-color: rgb(245, 171, 171);
+    border: 1px solid rgb(184, 101, 101);
+}
