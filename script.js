@@ -1,4 +1,6 @@
-//Declaración de funciones 
+/**
+ * Declaración de variables
+ */
 let template  = document.querySelector("template");
 let divContenedorPreguntas = document.querySelector("#contenedorTodasPreguntas")
 let botonComprobar = document.querySelector("#botonComprobar")
@@ -31,7 +33,7 @@ function solicitarPreguntas(){
 const generarNumeroRandom = (maximo =>Math.floor(Math.random()*maximo))
 
 
-// const ramdomizarOrdenPreguntas2 = ((arrayIncorrectas, respuetaCorrecta)=>arrayIncorrectas.splice(generarNumeroRandom(cantidadRespuestasPosibles),0,respuetaCorrecta))
+
 
 /**
  * Mezcla la respuesta correcta con las incorrectas
@@ -195,7 +197,9 @@ function activarEventos(){
 
     botonReiniciar.addEventListener("click",() =>location.reload())
 }
-//LLamo a la funcion para cargar las perguntas cuendo se cargue la página
+/**
+ * LLamo a la funcion para cargar las perguntas cuendo se cargue la página
+ */
 solicitarPreguntas()
 
 
